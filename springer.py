@@ -3,7 +3,7 @@ import unittest
 
 class Testuser_journey_search(unittest.TestCase):
     driver = webdriver.Chrome(
-        executable_path="/Users/nishantmakkar/Downloads/chromedriver")  # Opens the Browser in a new window - Cleared Chache !
+        executable_path="./chromedriver")  # Opens the Browser in a new window - Cleared Cache !
 
 
     def setUp(self):
